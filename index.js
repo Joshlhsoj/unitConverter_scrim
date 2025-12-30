@@ -26,8 +26,9 @@ function doConversion(){
   const inputVal = input.value
   
   meters = (inputVal/3.281).toFixed(2)
-  liter = (inputVal/0.264).toFixed(2)
+  liter = (inputVal* 3.78541).toFixed(2)
   kilogram = (inputVal/ 2.204).toFixed(2)
+  
   feet = (inputVal*3.281).toFixed(2)
   gallon = (inputVal*0.264).toFixed(2)
   pound = (inputVal*2.204).toFixed(2)
